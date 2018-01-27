@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playerController : MonoBehaviour {
-    public float speed = 5;
+    public float speed = 10;
     public float jumpPower = 5;
     public bool isGrounded = true;
 	// Use this for initialization
