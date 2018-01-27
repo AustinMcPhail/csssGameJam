@@ -1,18 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
-//<<<<<<< HEAD
+using UnityEngine.SceneManagement;
+
 [System.Serializable]
 public class Boundary
 {
 	public float xMin, xMax, zMin, zMax;
-//=======
 }
-=======
-using UnityEngine.SceneManagement;
 
->>>>>>> origin/development
 public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
@@ -68,10 +64,5 @@ public class playerController : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-<<<<<<< HEAD
-    
-//>>>>>>> origin/development
-=======
->>>>>>> origin/development
 }
 	
