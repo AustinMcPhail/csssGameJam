@@ -1,31 +1,46 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
     public bool isGrounded = false;
 
+    Animator anim;
+
     // Use this for initialization
     void Start () {
-        
+        anim = gameObject.GetComponent<Animator>();
+        anim.SetBool("isGrounded", true);
+        anim.SetBool("isMoving", false);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.A))
-        {
+        if (Input.GetKey(KeyCode.A)) {
             transform.Translate(new Vector2(-speed * Time.deltaTime, 0.0f));
+            anim.SetBool("isMoving", true);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.A))
         {
+            anim.SetBool("isMoving", false);
+        }
+
+        if (Input.GetKey(KeyCode.D)) {
             transform.Translate(new Vector2(speed * Time.deltaTime, 0.0f));
+            anim.SetBool("isMoving", true);
         }
-        if (Input.GetKey(KeyCode.Space) && isGrounded == true)
+        if (Input.GetKeyUp(KeyCode.D))
         {
+            anim.SetBool("isMoving", false);
+        }
+
+        if (Input.GetKey(KeyCode.Space) && isGrounded == true) {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0.0f, jumpPower), ForceMode2D.Impulse);
             isGrounded = false;
+            anim.SetBool("isGrounded", false);
         }
     }
 
@@ -34,6 +49,12 @@ public class playerController : MonoBehaviour {
         if (coll.gameObject.tag == "Ground")
         {
             isGrounded = true;
+            anim.SetBool("isGrounded", true);
+        }
+
+        if(coll.gameObject.tag == "Firewall")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
     
