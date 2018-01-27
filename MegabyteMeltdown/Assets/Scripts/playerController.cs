@@ -1,18 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
-<<<<<<< HEAD
-//<<<<<<< HEAD
+
 [System.Serializable]
 public class Boundary
 {
 	public float xMin, xMax, zMin, zMax;
-//=======
-}
-=======
-using UnityEngine.SceneManagement;
 
->>>>>>> origin/development
+}
+
+//using UnityEngine.SceneManagement;
+
+
 public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
@@ -65,13 +65,10 @@ public class playerController : MonoBehaviour {
 
         if(coll.gameObject.tag == "Firewall")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-<<<<<<< HEAD
-    
-//>>>>>>> origin/development
-=======
->>>>>>> origin/development
+
 }
 	
