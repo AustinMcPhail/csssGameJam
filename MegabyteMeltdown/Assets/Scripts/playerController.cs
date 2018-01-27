@@ -33,7 +33,6 @@ public class playerController : MonoBehaviour {
         if (coll.gameObject.tag == "Ground")
         {
             isGrounded = true;
-
         }
     }
     
