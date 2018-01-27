@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
+//<<<<<<< HEAD
 [System.Serializable]
 public class Boundary
 {
 	public float xMin, xMax, zMin, zMax;
-=======
-
+//=======
+}
 public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
@@ -43,7 +43,7 @@ public class playerController : MonoBehaviour {
         }
     }
     
->>>>>>> origin/development
+//>>>>>>> origin/development
 }
 	
 public class PlayerController : MonoBehaviour

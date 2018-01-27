@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour {
 	// An array to hold multiple hazards
 	public GameObject [] hazards;
 	public Vector3 spawnValues;
-	public Quaternion spawnRotation;
+	//public Quaternion spawnRotation;
 	public int hazardCount;
 	public float spawnWait;
 	public float startWait;
@@ -57,8 +57,8 @@ public class GameController : MonoBehaviour {
 			{
 				GameObject hazard = hazards[Random.Range(0, hazards.Length)];
 				Vector3 spawnPosition = new Vector3 (Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (hazard, spawnPosition, spawnRotation);
+				//Quaternion spawnRotation = Quaternion.identity;
+				// Instantiate (hazard, spawnPosition, spawnRotation);
 				yield return new WaitForSeconds(spawnWait);
 			}
 			yield return new WaitForSeconds (waitNewWave);
@@ -80,7 +80,7 @@ public class GameController : MonoBehaviour {
 
 	void UpdateScore()
 	{
-		scoreText.text = "Score: " + score;
+		// scoreText.text = "Score: " + score;
 	}
 
 	public void GameOver()

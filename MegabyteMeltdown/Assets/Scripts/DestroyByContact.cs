@@ -44,11 +44,11 @@ public class DestroyByContact : MonoBehaviour
 			return;
 		}
 
-		if (other.tag == "Ground") 
+		/* if (other.tag == "Ground") 
 		{
 			return;
 
-		}
+		} */
 
 		Instantiate (explosion, transform.position, transform.rotation);
 
