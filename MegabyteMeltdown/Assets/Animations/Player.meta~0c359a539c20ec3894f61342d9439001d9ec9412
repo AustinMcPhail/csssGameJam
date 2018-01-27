@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:MegabyteMeltdown/Assets/Animations/Player.meta
-guid: 99fa05343bfead74b9275ad233b6647d
+guid: 27467921e08972d4a81e15d6b013d269
 folderAsset: yes
-timeCreated: 1517033332
+timeCreated: 1517088244
 =======
-guid: 98f1dbcc8a606e94da18d4789c3f8100
+guid: 2606cc2a922c84c36bb4ca5d30b18799
 folderAsset: yes
-timeCreated: 1517093503
->>>>>>> 0c359a539c20ec3894f61342d9439001d9ec9412:MegabyteMeltdown/Assets/Models.meta
+timeCreated: 1517088266
+>>>>>>> e2974058bf459c34ae2d72e429a17a974f84bf84:MegabyteMeltdown/Assets/Animations/Player.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

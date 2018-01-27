@@ -461,7 +461,6 @@ GameObject:
   - component: {fileID: 559672757}
   - component: {fileID: 559672761}
   - component: {fileID: 559672762}
-  - component: {fileID: 559672763}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -552,32 +551,6 @@ MonoBehaviour:
   speed: 5
   jumpPower: 5
   isGrounded: 0
-  rb: {fileID: 0}
-  audio: {fileID: 0}
-  speed2: 0
-  tilt: 0
-  boundary:
-    xMin: 0
-    xMax: 0
-    zMin: 0
-    zMax: 0
-  projectile: {fileID: 0}
-  fireDelta: 0.5
-  shotSpawn: {fileID: 0}
---- !u!114 &559672763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 559672756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a48f5609f4e3c4ea3baacfd9308da807, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
-  playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
-  scoreValue: 0
 --- !u!1 &755557152
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +879,6 @@ GameObject:
   - component: {fileID: 1097791857}
   - component: {fileID: 1097791856}
   - component: {fileID: 1097791861}
-  - component: {fileID: 1097791862}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -1008,20 +980,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
---- !u!114 &1097791862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1097791855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a48f5609f4e3c4ea3baacfd9308da807, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
-  playerExplosion: {fileID: 100012, guid: 384371afbb4354cc9a3fc68eab303756, type: 2}
-  scoreValue: 0
 --- !u!1 &1149792996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,7 +1040,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1149792996}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
