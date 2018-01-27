@@ -6,9 +6,10 @@ public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
     public bool isGrounded = false;
-	// Use this for initialization
-	void Start () {
 
+    // Use this for initialization
+    void Start () {
+        
     }
 	
 	// Update is called once per frame
