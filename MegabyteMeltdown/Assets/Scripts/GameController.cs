@@ -1,0 +1,93 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GameController : MonoBehaviour {
+	// An array to hold multiple hazards
+	public GameObject [] hazards;
+	public Vector3 spawnValues;
+	public Quaternion spawnRotation;
+	public int hazardCount;
+	public float spawnWait;
+	public float startWait;
+	public float waitNewWave;
+	//For displaying Text
+	public Text scoreText;
+	public Text restartText;
+	public Text gameOverText;
+
+	// Will help us track when the game is over and when to restart
+	private bool gameOver;
+	private bool restart;
+
+	// To save the score
+	private int score;
+
+
+	void Start()
+	{
+		//gameOver = false;
+		restart = false;
+		// Set starting text in new labels
+		//restartText.text = "";
+		//gameOverText.text = "";
+		score = 0;
+		UpdateScore ();
+		StartCoroutine(SpawnWaves());
+	}
+
+	void Update()
+	{
+		if (restart) 
+		{
+			if(Input.GetKeyDown (KeyCode.R))
+				{
+					UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+				}
+		}
+	}
+
+	IEnumerator SpawnWaves()
+	{
+		yield return new WaitForSeconds(startWait);
+		while(true)
+		{
+			for(int i = 0; i < hazardCount; i++)
+			{
+				GameObject hazard = hazards[Random.Range(0, hazards.Length)];
+				Vector3 spawnPosition = new Vector3 (Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
+				Quaternion spawnRotation = Quaternion.identity;
+				Instantiate (hazard, spawnPosition, spawnRotation);
+				yield return new WaitForSeconds(spawnWait);
+			}
+			yield return new WaitForSeconds (waitNewWave);
+
+			if (gameOver) 
+			{
+				restartText.text = "Press 'R' to restart";
+				restart = true;
+				break;
+			}
+		}
+	}
+
+	public void AddScore(int newScoreValue)
+	{
+		score += newScoreValue;
+		UpdateScore ();
+	}
+
+	void UpdateScore()
+	{
+		scoreText.text = "Score: " + score;
+	}
+
+	public void GameOver()
+	{
+		gameOverText.text = "Game Over!";	
+		// Set gameOver flag to true.
+		gameOver = true;
+	}
+
+}

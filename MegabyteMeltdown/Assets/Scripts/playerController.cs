@@ -8,6 +8,7 @@ public class playerController : MonoBehaviour {
     public float jumpPower = 5.0f;
     public bool isGrounded = false;
 
+    AudioSource audio;
     Animator anim;
 
     // Use this for initialization
@@ -57,5 +58,5 @@ public class playerController : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-    
 }
+	
