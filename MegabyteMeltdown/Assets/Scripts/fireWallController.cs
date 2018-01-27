@@ -11,6 +11,6 @@ public class fireWallController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(new Vector2(0.01f, 0.0f));
+        transform.Translate(new Vector2(0.05f, 0.0f));
 	}
 }

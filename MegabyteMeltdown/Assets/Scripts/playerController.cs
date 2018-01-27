@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 //<<<<<<< HEAD
 [System.Serializable]
 public class Boundary
@@ -8,30 +9,49 @@ public class Boundary
 	public float xMin, xMax, zMin, zMax;
 //=======
 }
+=======
+using UnityEngine.SceneManagement;
+
+>>>>>>> origin/development
 public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
     public bool isGrounded = false;
 
+    AudioSource audio;
+    Animator anim;
+
     // Use this for initialization
     void Start () {
-        
+        anim = gameObject.GetComponent<Animator>();
+        anim.SetBool("isGrounded", true);
+        anim.SetBool("isMoving", false);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.A))
-        {
+        if (Input.GetKey(KeyCode.A)) {
             transform.Translate(new Vector2(-speed * Time.deltaTime, 0.0f));
+            anim.SetBool("isMoving", true);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.A))
         {
+            anim.SetBool("isMoving", false);
+        }
+
+        if (Input.GetKey(KeyCode.D)) {
             transform.Translate(new Vector2(speed * Time.deltaTime, 0.0f));
+            anim.SetBool("isMoving", true);
         }
-        if (Input.GetKey(KeyCode.Space) && isGrounded == true)
+        if (Input.GetKeyUp(KeyCode.D))
         {
+            anim.SetBool("isMoving", false);
+        }
+
+        if (Input.GetKey(KeyCode.Space) && isGrounded == true) {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0.0f, jumpPower), ForceMode2D.Impulse);
             isGrounded = false;
+            anim.SetBool("isGrounded", false);
         }
     }
 
@@ -40,79 +60,18 @@ public class playerController : MonoBehaviour {
         if (coll.gameObject.tag == "Ground")
         {
             isGrounded = true;
+            anim.SetBool("isGrounded", true);
+        }
+
+        if(coll.gameObject.tag == "Firewall")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
+<<<<<<< HEAD
     
 //>>>>>>> origin/development
+=======
+>>>>>>> origin/development
 }
 	
-public class PlayerController : MonoBehaviour
-{
-	public float speed = 5.0f;
-	public float jumpPower = 5.0f;
-	public bool isGrounded = false;
-	public Rigidbody rb;
-	public AudioSource audio;
-
-	void Start()
-	{
-		rb = GetComponent<Rigidbody> ();
-		audio = GetComponent<AudioSource> ();
-	}
-	// For player movement
-	public float speed2;
-	public float tilt;
-	public Boundary boundary;
-
-	// For Shooting
-	public GameObject projectile;
-	public float fireDelta = 0.5f;
-	private float nextFire = 0.5f;
-	private GameObject newProjectile;
-	private float myTime = 0.0f;
-	public Transform shotSpawn;
-
-
-	void Update()
-	{
-		if (Input.GetKey(KeyCode.A))
-		{
-			transform.Translate(new Vector2(-speed * Time.deltaTime, 0.0f));
-		}
-		if (Input.GetKey(KeyCode.D))
-		{
-			transform.Translate(new Vector2(speed * Time.deltaTime, 0.0f));
-		}
-		if (Input.GetKey(KeyCode.Space) && isGrounded == true)
-		{
-			GetComponent<Rigidbody2D>().AddForce(new Vector2(0.0f, jumpPower), ForceMode2D.Impulse);
-			isGrounded = false;
-		}
-
-		myTime = myTime + Time.deltaTime;
-
-		if(Input.GetButton("Fire1") && myTime > nextFire)
-		{
-			nextFire = myTime + fireDelta;
-			//newProjectile = 
-			Instantiate (projectile, shotSpawn.position, shotSpawn.rotation); // as GameObject;
-			// audio
-			audio.Play ();
-
-			nextFire = nextFire - myTime;
-			myTime = 0.0f;
-		}
-
-	}
-
-
-
-	void OnCollisionEnter2D(Collision2D coll)
-	{
-		if (coll.gameObject.tag == "ground")
-		{
-			isGrounded = true;
-		}
-	}
-
-}
