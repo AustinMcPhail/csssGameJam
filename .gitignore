@@ -31,4 +31,8 @@ ExportedObj/
 
 # Builds
 /MegabyteMeltdown/*.apk
+<<<<<<< HEAD
 /MegabyteMeltdown/*.unitypackage
+=======
+/MegabyteMeltdown/*.unitypackage
+>>>>>>> master
