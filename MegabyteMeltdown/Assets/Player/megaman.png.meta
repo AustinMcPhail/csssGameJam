@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: de49479aafbf56e49a1c90f19e834e11
-timeCreated: 1517032981
+timeCreated: 1517041152
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -74,26 +74,6 @@ TextureImporter:
     21300134: megaman_67
     21300136: megaman_68
     21300138: megaman_69
-    21300140: megaman_70
-    21300142: megaman_71
-    21300144: megaman_72
-    21300146: megaman_73
-    21300148: megaman_74
-    21300150: megaman_75
-    21300152: megaman_76
-    21300154: megaman_77
-    21300156: megaman_78
-    21300158: megaman_79
-    21300160: megaman_80
-    21300162: megaman_81
-    21300164: megaman_82
-    21300166: megaman_83
-    21300168: megaman_84
-    21300170: megaman_85
-    21300172: megaman_86
-    21300174: megaman_87
-    21300176: megaman_88
-    21300178: megaman_89
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -121,7 +101,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -173,12 +153,12 @@ TextureImporter:
       name: megaman_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 376
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 313
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.38437143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +167,12 @@ TextureImporter:
       name: megaman_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 376
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 58
+        y: 313
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,12 +181,12 @@ TextureImporter:
       name: megaman_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 376
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 109
+        y: 313
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +195,12 @@ TextureImporter:
       name: megaman_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 381
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 156
+        y: 313
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +209,12 @@ TextureImporter:
       name: megaman_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 381
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 313
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,12 +223,12 @@ TextureImporter:
       name: megaman_5
       rect:
         serializedVersion: 2
-        x: 172
-        y: 381
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 255
+        y: 313
+        width: 21
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +237,12 @@ TextureImporter:
       name: megaman_6
       rect:
         serializedVersion: 2
-        x: 192
-        y: 376
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 306
+        y: 307
+        width: 26
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5119317, y: 0.3843714}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +251,12 @@ TextureImporter:
       name: megaman_7
       rect:
         serializedVersion: 2
-        x: 211
-        y: 381
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 350
+        y: 300
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0.4526318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -285,12 +265,12 @@ TextureImporter:
       name: megaman_8
       rect:
         serializedVersion: 2
-        x: 252
-        y: 382
-        width: 39
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 300
+        width: 50
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0.4526318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +279,12 @@ TextureImporter:
       name: megaman_9
       rect:
         serializedVersion: 2
-        x: 297
-        y: 381
-        width: 38
-        height: 46
+        x: 450
+        y: 300
+        width: 50
+        height: 50
       alignment: 9
-      pivot: {x: 0.50000095, y: 0.5}
+      pivot: {x: 0, y: 0.4526318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +293,12 @@ TextureImporter:
       name: megaman_10
       rect:
         serializedVersion: 2
-        x: 345
-        y: 382
-        width: 45
-        height: 42
+        x: 0
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -327,12 +307,12 @@ TextureImporter:
       name: megaman_11
       rect:
         serializedVersion: 2
-        x: 352
-        y: 376
-        width: 32
-        height: 64
+        x: 50
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,12 +321,12 @@ TextureImporter:
       name: megaman_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 376
-        width: 32
-        height: 64
+        x: 100
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +335,12 @@ TextureImporter:
       name: megaman_13
       rect:
         serializedVersion: 2
-        x: 416
-        y: 376
-        width: 32
-        height: 64
+        x: 150
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,12 +349,12 @@ TextureImporter:
       name: megaman_14
       rect:
         serializedVersion: 2
-        x: 448
-        y: 376
-        width: 32
-        height: 64
+        x: 200
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,12 +363,12 @@ TextureImporter:
       name: megaman_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 312
-        width: 32
-        height: 64
+        x: 250
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,12 +377,12 @@ TextureImporter:
       name: megaman_16
       rect:
         serializedVersion: 2
-        x: 32
-        y: 312
-        width: 32
-        height: 64
+        x: 300
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,12 +391,12 @@ TextureImporter:
       name: megaman_17
       rect:
         serializedVersion: 2
-        x: 51
-        y: 321
-        width: 38
-        height: 44
+        x: 350
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,12 +405,12 @@ TextureImporter:
       name: megaman_18
       rect:
         serializedVersion: 2
-        x: 90
-        y: 321
-        width: 26
-        height: 45
+        x: 400
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,12 +419,12 @@ TextureImporter:
       name: megaman_19
       rect:
         serializedVersion: 2
-        x: 116
-        y: 321
-        width: 31
-        height: 45
+        x: 450
+        y: 250
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,12 +433,12 @@ TextureImporter:
       name: megaman_20
       rect:
         serializedVersion: 2
-        x: 147
-        y: 321
-        width: 41
-        height: 45
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,12 +447,12 @@ TextureImporter:
       name: megaman_21
       rect:
         serializedVersion: 2
-        x: 188
-        y: 321
-        width: 45
-        height: 44
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,12 +461,12 @@ TextureImporter:
       name: megaman_22
       rect:
         serializedVersion: 2
-        x: 236
-        y: 321
-        width: 39
-        height: 44
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,12 +475,12 @@ TextureImporter:
       name: megaman_23
       rect:
         serializedVersion: 2
-        x: 256
-        y: 312
-        width: 32
-        height: 64
+        x: 150
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,12 +489,12 @@ TextureImporter:
       name: megaman_24
       rect:
         serializedVersion: 2
-        x: 276
-        y: 321
-        width: 30
-        height: 44
+        x: 200
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,12 +503,12 @@ TextureImporter:
       name: megaman_25
       rect:
         serializedVersion: 2
-        x: 305
-        y: 320
-        width: 31
-        height: 43
+        x: 250
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -537,12 +517,12 @@ TextureImporter:
       name: megaman_26
       rect:
         serializedVersion: 2
-        x: 339
-        y: 321
-        width: 40
-        height: 43
+        x: 300
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,12 +531,12 @@ TextureImporter:
       name: megaman_27
       rect:
         serializedVersion: 2
-        x: 384
-        y: 312
-        width: 32
-        height: 64
+        x: 350
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,12 +545,12 @@ TextureImporter:
       name: megaman_28
       rect:
         serializedVersion: 2
-        x: 416
-        y: 312
-        width: 32
-        height: 64
+        x: 400
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -579,12 +559,12 @@ TextureImporter:
       name: megaman_29
       rect:
         serializedVersion: 2
-        x: 448
-        y: 312
-        width: 32
-        height: 64
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,12 +573,12 @@ TextureImporter:
       name: megaman_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 248
-        width: 32
-        height: 64
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,12 +587,12 @@ TextureImporter:
       name: megaman_31
       rect:
         serializedVersion: 2
-        x: 42
-        y: 250
-        width: 31
-        height: 58
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -621,12 +601,12 @@ TextureImporter:
       name: megaman_32
       rect:
         serializedVersion: 2
-        x: 83
-        y: 255
-        width: 34
+        x: 150
+        y: 150
+        width: 50
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,12 +615,12 @@ TextureImporter:
       name: megaman_33
       rect:
         serializedVersion: 2
-        x: 96
-        y: 248
-        width: 32
-        height: 64
+        x: 200
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -649,12 +629,12 @@ TextureImporter:
       name: megaman_34
       rect:
         serializedVersion: 2
-        x: 123
-        y: 257
-        width: 39
-        height: 48
+        x: 250
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -663,12 +643,12 @@ TextureImporter:
       name: megaman_35
       rect:
         serializedVersion: 2
-        x: 167
-        y: 260
-        width: 34
-        height: 45
+        x: 300
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,12 +657,12 @@ TextureImporter:
       name: megaman_36
       rect:
         serializedVersion: 2
-        x: 192
-        y: 248
-        width: 32
-        height: 64
+        x: 350
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -691,12 +671,12 @@ TextureImporter:
       name: megaman_37
       rect:
         serializedVersion: 2
-        x: 207
-        y: 257
-        width: 39
-        height: 48
+        x: 400
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -705,12 +685,12 @@ TextureImporter:
       name: megaman_38
       rect:
         serializedVersion: 2
-        x: 255
-        y: 255
-        width: 34
+        x: 450
+        y: 150
+        width: 50
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -719,12 +699,12 @@ TextureImporter:
       name: megaman_39
       rect:
         serializedVersion: 2
-        x: 296
-        y: 249
-        width: 31
-        height: 59
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -733,12 +713,12 @@ TextureImporter:
       name: megaman_40
       rect:
         serializedVersion: 2
-        x: 320
-        y: 248
-        width: 32
-        height: 64
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -747,12 +727,12 @@ TextureImporter:
       name: megaman_41
       rect:
         serializedVersion: 2
-        x: 335
-        y: 249
-        width: 38
-        height: 42
+        x: 100
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -761,12 +741,12 @@ TextureImporter:
       name: megaman_42
       rect:
         serializedVersion: 2
-        x: 383
-        y: 249
-        width: 37
-        height: 45
+        x: 150
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -775,12 +755,12 @@ TextureImporter:
       name: megaman_43
       rect:
         serializedVersion: 2
-        x: 416
-        y: 248
-        width: 32
-        height: 64
+        x: 200
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -789,12 +769,12 @@ TextureImporter:
       name: megaman_44
       rect:
         serializedVersion: 2
-        x: 448
-        y: 248
-        width: 32
-        height: 64
+        x: 250
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -803,12 +783,12 @@ TextureImporter:
       name: megaman_45
       rect:
         serializedVersion: 2
-        x: 0
-        y: 184
-        width: 32
-        height: 64
+        x: 300
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -817,12 +797,12 @@ TextureImporter:
       name: megaman_46
       rect:
         serializedVersion: 2
-        x: 33
-        y: 183
-        width: 32
-        height: 64
+        x: 350
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -831,12 +811,12 @@ TextureImporter:
       name: megaman_47
       rect:
         serializedVersion: 2
-        x: 84
-        y: 185
-        width: 41
-        height: 46
+        x: 400
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -845,12 +825,12 @@ TextureImporter:
       name: megaman_48
       rect:
         serializedVersion: 2
-        x: 96
-        y: 184
-        width: 32
-        height: 64
+        x: 450
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -859,12 +839,12 @@ TextureImporter:
       name: megaman_49
       rect:
         serializedVersion: 2
-        x: 130
-        y: 185
-        width: 41
-        height: 46
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -873,12 +853,12 @@ TextureImporter:
       name: megaman_50
       rect:
         serializedVersion: 2
-        x: 178
-        y: 185
-        width: 38
-        height: 42
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,12 +867,12 @@ TextureImporter:
       name: megaman_51
       rect:
         serializedVersion: 2
-        x: 192
-        y: 184
-        width: 32
-        height: 64
+        x: 100
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -901,12 +881,12 @@ TextureImporter:
       name: megaman_52
       rect:
         serializedVersion: 2
-        x: 222
-        y: 185
-        width: 46
+        x: 150
+        y: 50
+        width: 50
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -915,12 +895,12 @@ TextureImporter:
       name: megaman_53
       rect:
         serializedVersion: 2
-        x: 272
-        y: 187
-        width: 32
-        height: 49
+        x: 200
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,12 +909,12 @@ TextureImporter:
       name: megaman_54
       rect:
         serializedVersion: 2
-        x: 314
-        y: 183
-        width: 42
-        height: 35
+        x: 250
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -943,12 +923,12 @@ TextureImporter:
       name: megaman_55
       rect:
         serializedVersion: 2
-        x: 320
-        y: 184
-        width: 32
-        height: 64
+        x: 300
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -957,12 +937,12 @@ TextureImporter:
       name: megaman_56
       rect:
         serializedVersion: 2
-        x: 352
-        y: 184
-        width: 32
-        height: 64
+        x: 350
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,12 +951,12 @@ TextureImporter:
       name: megaman_57
       rect:
         serializedVersion: 2
-        x: 384
-        y: 184
-        width: 32
-        height: 64
+        x: 400
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -985,12 +965,12 @@ TextureImporter:
       name: megaman_58
       rect:
         serializedVersion: 2
-        x: 416
-        y: 184
-        width: 32
-        height: 64
+        x: 450
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -999,12 +979,12 @@ TextureImporter:
       name: megaman_59
       rect:
         serializedVersion: 2
-        x: 448
-        y: 184
-        width: 32
-        height: 64
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1013,12 +993,12 @@ TextureImporter:
       name: megaman_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 120
-        width: 32
-        height: 64
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1027,12 +1007,12 @@ TextureImporter:
       name: megaman_61
       rect:
         serializedVersion: 2
-        x: 32
-        y: 120
-        width: 32
-        height: 64
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1041,12 +1021,12 @@ TextureImporter:
       name: megaman_62
       rect:
         serializedVersion: 2
-        x: 51
-        y: 129
-        width: 51
-        height: 25
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,12 +1035,12 @@ TextureImporter:
       name: megaman_63
       rect:
         serializedVersion: 2
-        x: 114
-        y: 110
-        width: 51
-        height: 55
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1069,12 +1049,12 @@ TextureImporter:
       name: megaman_64
       rect:
         serializedVersion: 2
-        x: 124
-        y: 120
-        width: 36
-        height: 64
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1083,12 +1063,12 @@ TextureImporter:
       name: megaman_65
       rect:
         serializedVersion: 2
-        x: 168
-        y: 109
-        width: 55
-        height: 57
+        x: 300
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,12 +1077,12 @@ TextureImporter:
       name: megaman_66
       rect:
         serializedVersion: 2
-        x: 192
-        y: 120
-        width: 32
-        height: 64
+        x: 350
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1111,12 +1091,12 @@ TextureImporter:
       name: megaman_67
       rect:
         serializedVersion: 2
-        x: 227
-        y: 109
-        width: 55
-        height: 57
+        x: 400
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1125,12 +1105,12 @@ TextureImporter:
       name: megaman_68
       rect:
         serializedVersion: 2
-        x: 256
-        y: 120
-        width: 32
-        height: 64
+        x: 450
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,292 +1119,12 @@ TextureImporter:
       name: megaman_69
       rect:
         serializedVersion: 2
-        x: 292
-        y: 111
-        width: 37
-        height: 44
+        x: 186
+        y: 307
+        width: 119
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_70
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 111
-        width: 37
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_71
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 120
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_72
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 120
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_73
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 120
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_74
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 120
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_75
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_76
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_77
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_78
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_79
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_80
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_81
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_82
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_83
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_84
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_85
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_86
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_87
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_88
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: megaman_89
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 56
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

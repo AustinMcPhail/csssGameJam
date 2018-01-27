@@ -6,19 +6,22 @@ public class playerController : MonoBehaviour {
     public float speed = 5.0f;
     public float jumpPower = 5.0f;
     public bool isGrounded = false;
+    Animator anim;
 	// Use this for initialization
 	void Start () {
-      
+        anim = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKey(KeyCode.A))
         {
+            anim.SetFloat("hSpeed", Mathf.Abs(-speed * Time.deltaTime));
             transform.Translate(new Vector2(-speed * Time.deltaTime, 0.0f));
         }
         if (Input.GetKey(KeyCode.D))
         {
+            anim.SetFloat("hSpeed", Mathf.Abs(speed * Time.deltaTime));
             transform.Translate(new Vector2(speed * Time.deltaTime, 0.0f));
         }
         if (Input.GetKey(KeyCode.Space) && isGrounded == true)
@@ -30,7 +33,7 @@ public class playerController : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag == "ground")
+        if (coll.gameObject.tag == "Ground")
         {
             isGrounded = true;
         }
