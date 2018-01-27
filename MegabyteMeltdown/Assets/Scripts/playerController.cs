@@ -29,6 +29,7 @@ public class playerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0.0f, 1.0f), ForceMode2D.Impulse);
+            //this isn't working atm. Need to toggle isGrounded somewhere. 
         }
     }
 }
