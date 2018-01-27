@@ -1,0 +1,41 @@
+MegaByte Mayhem
+
+Developed in part with the Global Game Jam 2018.
+Theme of this year Game Jam: Transmission.
+
+Developers:
+Alain Maubert
+Anthony Landgraf
+Austin McPhail
+Dustin Smith
+Matt Dean
+
+Genre:
+2D Sidescroller / Platformer
+Theme: Escape / Transmit Infection
+Platforms: PC
+Release: 28th January, 2018
+
+
+Created with Unity
+
+Music, Sound, and Textures by:
+Dustin Smith
+Connor Zerr
+
+Additional testing, advice, and invaluable support:
+Ashley Nistor
+Connor Zerr
+Brea Monaghan
+
+
+MegaByte Mayhem uses libraries from the following websites:
+
+SoundImage.org
+Soungbible.com
+FreeSound.org
+
+And thanks to the following for supplying additional sfx.
+Yuri Santana
+Mike Koenig
+DrMinky
