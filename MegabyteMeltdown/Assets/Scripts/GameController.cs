@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
 	public float startWait;
 	public float waitNewWave;
 	//For displaying Text
-	// public Text scoreText;
+	 public Text scoreText;
 	// public Text restartText;
 	// public Text gameOverText;
 
@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour {
 	// private bool restart;
 
 	// To save the score
-	// private int score;
+	 private int score;
 
 
 	void Start()
@@ -33,8 +33,8 @@ public class GameController : MonoBehaviour {
 		// Set starting text in new labels
 		//restartText.text = "";
 		//gameOverText.text = "";
-		// score = 0;
-		//UpdateScore ();
+		 score = 0;
+		UpdateScore ();
 		StartCoroutine(SpawnWaves());
 	}
 
@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour {
 			*/
 		}
 	}
-	/*
+
 	public void AddScore(int newScoreValue)
 	{
 		score += newScoreValue;
@@ -83,9 +83,10 @@ public class GameController : MonoBehaviour {
 
 	void UpdateScore()
 	{
-		// scoreText.text = "Score: " + score;
+		 scoreText.text = "Score: " + score;
+		Debug.Log ("Score: " + score);
 	}
-
+	/*
 	public void GameOver()
 	{
 		gameOverText.text = "Game Over!";	

@@ -26,6 +26,7 @@ public class DestroyByContact : MonoBehaviour
 			 * We do this by searching the Game Controller object and getting the component on it, with GetComponent searching 
 			 * for the type of GameController.
 			*/
+			Debug.Log ("GameController Found!!!!!");
 			gameController = gameControllerObject.GetComponent<GameController> ();
 		}
 		/* We are going to write an "insurance policy". If after all this work, our Game Controller reference is 
@@ -37,7 +38,7 @@ public class DestroyByContact : MonoBehaviour
 
 	}
 
-	void OnTriggerEnter(Collider other) {
+	void OnTriggerEnter2D(Collider2D other) {
 
 		if (other.tag == "Boundary") 
 		{
@@ -50,24 +51,26 @@ public class DestroyByContact : MonoBehaviour
 
 		} */
 
-		Instantiate (explosion, transform.position, transform.rotation);
+		// Instantiate (explosion, transform.position, transform.rotation);
 
+		/*
 		if (other.tag == "Player") {
 			// "other" in this case is the player
 			Instantiate (playerExplosion, other.transform.position, other.transform.rotation);
 
 			/* gameController is the variable holding the reference to our game controller instance 
-			 * and with the dot called the GameOver function on gameController */
+			 * and with the dot called the GameOver function on gameController 
 			// gameController.GameOver();
 		}
-		// Debug.Log (other.name);
+	*/
+		Debug.Log ("Collider OK!!!!!");
 
 		// Send Score to GameController.cs Add score 
-		// gameController.AddScore(scoreValue);
+		 gameController.AddScore(scoreValue);
+		Debug.Log ("AssScore Supposedly reached !!!!!");
 
-
-		Destroy(other.gameObject);
-		Destroy (gameObject);
+		// Destroy(other.gameObject);
+		// Destroy (gameObject);
 
 	}
 }
