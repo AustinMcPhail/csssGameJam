@@ -37,6 +37,7 @@ public class pauseScript : MonoBehaviour {
 
     public void QuitGame()
     {
+        print("Quitting");
         SceneManager.LoadScene("MainMenu");
     }
 }
