@@ -7,7 +7,8 @@ public class GameController : MonoBehaviour {
 	// An array to hold multiple hazards
 	public GameObject [] hazards;
 	public Vector2 spawnValues;
-	//public Quaternion spawnRotation;
+	public Vector2 spawnValues2;
+	public Quaternion spawnRotation;
 	public int hazardCount;
 	public float spawnWait;
 	public float startWait;
@@ -57,9 +58,9 @@ public class GameController : MonoBehaviour {
 			for(int i = 0; i < hazardCount; i++)
 			{
 				GameObject hazard = hazards[Random.Range(0, hazards.Length)];
-				Vector2 spawnPosition = new Vector2 (Random.Range(spawnValues.x, spawnValues.x), spawnValues.y);
-				//Quaternion spawnRotation = Quaternion.identity;
-				// Instantiate (hazard, spawnPosition, spawnRotation);
+				Vector2 spawnPosition = new Vector2 (Random.Range(spawnValues.x, spawnValues2.x), spawnValues.y);
+				Quaternion spawnRotation = Quaternion.identity;
+				 Instantiate (hazard, spawnPosition, spawnRotation);
 				yield return new WaitForSeconds(spawnWait);
 			}
 			yield return new WaitForSeconds (waitNewWave);

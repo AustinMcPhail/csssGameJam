@@ -506,12 +506,12 @@ Prefab:
     - target: {fileID: 20199210411438914, guid: 5323e1874a7f74e42aaba29e8ad436f1,
         type: 2}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.47
       objectReference: {fileID: 0}
     - target: {fileID: 20199210411438914, guid: 5323e1874a7f74e42aaba29e8ad436f1,
         type: 2}
       propertyPath: orthographic size
-      value: 5.954773
+      value: 12.086917
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5323e1874a7f74e42aaba29e8ad436f1, type: 2}
@@ -879,7 +879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazards:
   - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
-  spawnValues: {x: 10, y: 5}
+  spawnValues: {x: 15, y: 5}
+  spawnValues2: {x: 80, y: 5}
+  spawnRotation: {x: 0, y: 0, z: 0, w: 0}
   hazardCount: 5
   spawnWait: 1
   startWait: 1
