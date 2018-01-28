@@ -20,7 +20,7 @@ public class MainMenuController : MonoBehaviour {
     public void StartGame()
     {
         //Application.LoadLevel("test");
-        SceneManager.LoadScene("test");
+        SceneManager.LoadScene("level_1");
     }
 
     public void EndGame()
