@@ -66,7 +66,7 @@ public class DestroyByContact : MonoBehaviour
 		Debug.Log ("Collider OK!!!!!");
 
 		// Send Score to GameController.cs Add score 
-		 gameController.AddScore(scoreValue);
+	    gameController.AddScore(scoreValue);
 		Debug.Log ("AssScore Supposedly reached !!!!!");
 
 		// Destroy(other.gameObject);

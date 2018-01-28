@@ -10,10 +10,42 @@ public class fileController : MonoBehaviour {
     float toDegrees = Mathf.PI / 180;
 
     public bool paused;
+    public bool collected;
+
+    public int scoreValue;
+    private GameController gameController;
 
     // Use this for initialization
     void Start () {
         paused = false;
+        collected = false;
+
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+
+        if (gameControllerObject != null)
+        {
+            /*
+			 * ... then we will set our Game Controller reference to the Game Controller component on the Game Controller object.
+			 * We do this by searching the Game Controller object and getting the component on it, with GetComponent searching 
+			 * for the type of GameController.
+			*/
+            Debug.Log("GameController Found!!!!!");
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+
+        if (gameController == null)
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "Player" && !collected)
+        {
+            collected = true;
+            gameController.AddScore(scoreValue);
+        }
     }
 	
 	// Update is called once per frame

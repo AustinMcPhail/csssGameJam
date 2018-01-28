@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour {
 	public float startWait;
 	public float waitNewWave;
 	//For displaying Text
-	 public Text scoreText;
+	public Text scoreText;
 	// public Text restartText;
 	// public Text gameOverText;
 
@@ -83,7 +83,8 @@ public class GameController : MonoBehaviour {
 
 	void UpdateScore()
 	{
-		 scoreText.text = "Score: " + score;
+        Debug.Log("Score: " + score);
+        scoreText.text = "Score: " + score;
 		Debug.Log ("Score: " + score);
 	}
 	/*
