@@ -7,6 +7,8 @@ public class DestroyByBoundary : MonoBehaviour
 	void OnTriggerExit(Collider other)
 	{
 		// Destroy everything that leaves the trigger
+		Debug.Log ("ENEMY DESTROYED!!!!!");
 		Destroy(other.gameObject);
+		Debug.Log ("ENEMY DESTROYED!!!!!");
 	}	
 }
