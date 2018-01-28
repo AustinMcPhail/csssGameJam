@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 61917074213892634}
   - component: {fileID: 114524921179781224}
   m_Layer: 0
-  m_Name: fireWall
+  m_Name: fireWallOldZ
   m_TagString: Firewall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2042,7 +2042,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1763207840701424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.57, y: 7.4, z: -60}
+  m_LocalPosition: {x: -9.9, y: 4.1819053, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4799878754189102}
@@ -2796,7 +2796,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.0137286, y: -2.144183}
+  m_Offset: {x: 7.0137286, y: 0.12899876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2807,7 +2807,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0350275, y: 17.241306}
+  m_Size: {x: 2.0350275, y: 12.69496}
   m_EdgeRadius: 0
 --- !u!61 &61917074213892634
 BoxCollider2D:
@@ -2821,7 +2821,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3176293, y: -0.7260828}
+  m_Offset: {x: -0.3176293, y: 1.195488}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2832,7 +2832,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.918973, y: 16.276289}
+  m_Size: {x: 0.918973, y: 12.433148}
   m_EdgeRadius: 0
 --- !u!81 &81491473743196846
 AudioListener:
