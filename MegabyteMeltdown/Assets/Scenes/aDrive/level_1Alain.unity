@@ -1806,6 +1806,12 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 57977547c59abb546bbb1501e3c417db, type: 2}
   m_PrefabInternal: {fileID: 944530185}
+--- !u!114 &169868262 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114014605764123110, guid: 39e0e05436b3f6746aa4a6d323824dd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1486640813}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &173980550
 Prefab:
   m_ObjectHideFlags: 0
@@ -5552,12 +5558,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_IsPrefabParent: 0
---- !u!114 &546904025 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114248345285426984, guid: 39e0e05436b3f6746aa4a6d323824dd8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1486640813}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &555304591
 GameObject:
   m_ObjectHideFlags: 0
@@ -17785,7 +17785,7 @@ MonoBehaviour:
   spawnWait: 0
   startWait: 0
   waitNewWave: 0
-  scoreText: {fileID: 546904025}
+  scoreText: {fileID: 169868262}
 --- !u!4 &1884105304
 Transform:
   m_ObjectHideFlags: 0
