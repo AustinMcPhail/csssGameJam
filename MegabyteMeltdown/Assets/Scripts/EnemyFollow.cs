@@ -20,6 +20,16 @@ public class EnemyFollow : MonoBehaviour {
 		}
 
 	}
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.collider.tag == "Firewall")
+        {
+            print("destroyed enemy");
+            Destroy(gameObject);
+        }
+    }
+
 	// Update is called once per frame
 	void Update () {
 		//transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);

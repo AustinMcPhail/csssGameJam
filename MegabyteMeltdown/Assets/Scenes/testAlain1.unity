@@ -513,6 +513,20 @@ Prefab:
       propertyPath: orthographic size
       value: 12.086917
       objectReference: {fileID: 0}
+    - target: {fileID: 61917074213892634, guid: 5323e1874a7f74e42aaba29e8ad436f1,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.3176293
+      objectReference: {fileID: 0}
+    - target: {fileID: 61917074213892634, guid: 5323e1874a7f74e42aaba29e8ad436f1,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.918973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1763207840701424, guid: 5323e1874a7f74e42aaba29e8ad436f1, type: 2}
+      propertyPath: m_TagString
+      value: Firewall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5323e1874a7f74e42aaba29e8ad436f1, type: 2}
   m_IsPrefabParent: 0
@@ -879,12 +893,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazards:
   - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
+  - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
+  - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
+  - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
+  - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
   spawnValues: {x: 15, y: 5}
   spawnValues2: {x: 80, y: 5}
   spawnRotation: {x: 0, y: 0, z: 0, w: 0}
-  hazardCount: 5
-  spawnWait: 1
-  startWait: 1
+  hazardCount: 10
+  spawnWait: 0.1
+  startWait: 0.5
   waitNewWave: 1
 --- !u!4 &1702306282
 Transform:
