@@ -14,14 +14,15 @@ public class EnemyFollow : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D other)
 	{
-		if (other.name == "Player") 
+		if (other.tag == "Player") 
 		{
 			transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
 		}
+
 	}
 	// Update is called once per frame
 	void Update () {
-		
+		//transform.position = Vector2.MoveTowards (transform.position, target.position, speed * Time.deltaTime);
 
 	}
 
