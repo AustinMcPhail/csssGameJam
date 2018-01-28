@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Firewall
   - Fire
+  - ShowOnPause
   layers:
   - Default
   - TransparentFX
