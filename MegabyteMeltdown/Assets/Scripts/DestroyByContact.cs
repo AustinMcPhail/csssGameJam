@@ -58,12 +58,12 @@ public class DestroyByContact : MonoBehaviour
 
 			/* gameController is the variable holding the reference to our game controller instance 
 			 * and with the dot called the GameOver function on gameController */
-			gameController.GameOver();
+			// gameController.GameOver();
 		}
 		// Debug.Log (other.name);
 
 		// Send Score to GameController.cs Add score 
-		gameController.AddScore(scoreValue);
+		// gameController.AddScore(scoreValue);
 
 
 		Destroy(other.gameObject);
