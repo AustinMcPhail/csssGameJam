@@ -1182,7 +1182,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Pause
-
 '
 --- !u!222 &473943819
 CanvasRenderer:
