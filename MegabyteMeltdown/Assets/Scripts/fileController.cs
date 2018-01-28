@@ -9,16 +9,33 @@ public class fileController : MonoBehaviour {
     float angle = 0.0f;
     float toDegrees = Mathf.PI / 180;
 
+    public bool paused;
+
     // Use this for initialization
     void Start () {
-        
+        paused = false;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        angle += speed * Time.deltaTime;
-        if (angle > 360) angle -= 360;
-        transform.Translate(new Vector3(0.0f, maxUpAndDown * Mathf.Sin(angle * toDegrees), 0.0f));
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            paused = !paused;
+        }
+
+
+        if (paused)
+        {
+            //do nothing
+        }
+        else if (!paused)
+        {
+            angle += speed * Time.deltaTime;
+            if (angle > 360) angle -= 360;
+            transform.Translate(new Vector3(0.0f, maxUpAndDown * Mathf.Sin(angle * toDegrees), 0.0f));
+        }
+        
     }
 }
 

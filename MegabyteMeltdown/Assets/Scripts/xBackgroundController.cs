@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class fireWallController : MonoBehaviour {
+public class xBackgroundController : MonoBehaviour {
     public bool paused;
 	// Use this for initialization
 	void Start () {
@@ -22,7 +22,7 @@ public class fireWallController : MonoBehaviour {
         }
         else if (!paused)
         {
-            transform.Translate(new Vector2(0.05f, 0.0f));
+            transform.Translate(new Vector2(0.02f, 0.0f));
         }
     }
 }

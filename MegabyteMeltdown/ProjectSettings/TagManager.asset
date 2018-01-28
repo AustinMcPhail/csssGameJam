@@ -10,6 +10,7 @@ TagManager:
   - Firewall
   - Fire
   - ShowOnPause
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
