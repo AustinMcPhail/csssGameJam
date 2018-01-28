@@ -875,7 +875,7 @@ MonoBehaviour:
   hazards:
   - {fileID: 1643920017781042, guid: e0c29c032947fe54cb73568a9d30e910, type: 2}
   spawnValues: {x: 10, y: 5}
-  hazardCount: 5
+  hazardCount: 10
   spawnWait: 1
   startWait: 1
   waitNewWave: 1
