@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platform
+  - Ground
+  - Enemy
+  - Firewall
+  - Fire
+  - ShowOnPause
+  - PauseMenu
+  - MostForeground
   layers:
   - Default
   - TransparentFX
@@ -13,6 +21,11 @@ TagManager:
   - UI
   - 
   - 
+  - Player
+  - Enemy
+  - EnemySight
+  - Files
+  - Fire
   - 
   - 
   - 
@@ -30,14 +43,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Foreground
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 2874012355
     locked: 0
