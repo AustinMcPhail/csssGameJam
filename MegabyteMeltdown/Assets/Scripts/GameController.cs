@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour {
 		//gameOverText.text = "";
 		 score = 0;
 		UpdateScore ();
-		StartCoroutine(SpawnWaves());
+		//StartCoroutine(SpawnWaves());
 	}
 
 	void Update()
@@ -48,6 +48,16 @@ public class GameController : MonoBehaviour {
 				}
 		}
 		*/
+	}
+
+	void OnTriggerEnter2D(Collider2D coll)
+	{
+		if(coll.gameObject.tag == "Player")
+		{
+			 StartCoroutine("SpawnWaves");
+			//Debug.Log ("Player pressed button");
+
+		}
 	}
 
 	IEnumerator SpawnWaves()
@@ -64,14 +74,6 @@ public class GameController : MonoBehaviour {
 				yield return new WaitForSeconds(spawnWait);
 			}
 			yield return new WaitForSeconds (waitNewWave);
-			/*
-			if (gameOver) 
-			{
-				restartText.text = "Press 'R' to restart";
-				restart = true;
-				break;
-			}
-			*/
 		}
 	}
 

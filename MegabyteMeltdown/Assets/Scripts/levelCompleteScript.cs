@@ -15,7 +15,8 @@ public class levelCompleteScript : MonoBehaviour {
         if(coll.gameObject.tag == "Player")
         {
             print(this.gameObject.name);
-            SceneManager.LoadScene(this.gameObject.name);
+			//SceneManager.LoadScene("level_2");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 

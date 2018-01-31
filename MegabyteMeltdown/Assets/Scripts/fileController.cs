@@ -15,10 +15,23 @@ public class fileController : MonoBehaviour {
     public int scoreValue;
     private GameController gameController;
 
-    // Use this for initialization
+
+
+	SpriteRenderer m_SpriteRenderer;
+	//The Color to be assigned to the Renderer’s Material
+	Color m_NewColor;
+	//These are the values that the Color Sliders return
+	float m_Red, m_Blue, m_Green;
+
+    
+
+	// Use this for initialization
     void Start () {
         paused = false;
         collected = false;
+
+		//Fetch the SpriteRenderer from the GameObject
+		m_SpriteRenderer = GetComponent<SpriteRenderer>();
 
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
 
@@ -29,7 +42,7 @@ public class fileController : MonoBehaviour {
 			 * We do this by searching the Game Controller object and getting the component on it, with GetComponent searching 
 			 * for the type of GameController.
 			*/
-            Debug.Log("GameController Found!!!!!");
+           // Debug.Log("GameController Found!!!!!");
             gameController = gameControllerObject.GetComponent<GameController>();
         }
 
@@ -43,8 +56,14 @@ public class fileController : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Player" && !collected)
         {
+			
             collected = true;
             gameController.AddScore(scoreValue);
+
+			//Set the GameObject's Color quickly to a set Color (blue)
+			m_SpriteRenderer.color = Color.magenta;
+			//Debug.Log ("Color Supposedly Changed");
+
         }
     }
 	

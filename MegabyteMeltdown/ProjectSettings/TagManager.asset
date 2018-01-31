@@ -12,6 +12,8 @@ TagManager:
   - ShowOnPause
   - PauseMenu
   - MostForeground
+  - Background
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -46,9 +48,9 @@ TagManager:
   - Foreground
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2874012355
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer
-    uniqueID: 2874012355
     locked: 0

@@ -34,7 +34,8 @@ public class DestroyByBoundary : MonoBehaviour
 		Destroy(GameObject.FindGameObjectWithTag ("Enemy").gameObject);
 		Debug.Log ("ENEMMIGO ELIMINADO!!!!!");
 
-
+		Destroy(GameObject.FindGameObjectWithTag ("Boss").gameObject);
+		Debug.Log ("Boss Defeated!!!!!");
 
 		/*
 		Object.DestroyObject (GameObject.FindGameObjectWithTag ("Enemy").gameObject);
