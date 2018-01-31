@@ -60,7 +60,7 @@ public class fileController : MonoBehaviour {
             collected = true;
             gameController.AddScore(scoreValue);
 
-			//Set the GameObject's Color quickly to a set Color (blue)
+			//Set the GameObject's Color quickly to a set Color (magenta)
 			m_SpriteRenderer.color = Color.magenta;
 			//Debug.Log ("Color Supposedly Changed");
 

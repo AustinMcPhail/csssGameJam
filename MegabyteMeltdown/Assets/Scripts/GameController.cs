@@ -85,9 +85,9 @@ public class GameController : MonoBehaviour {
 
 	void UpdateScore()
 	{
-        Debug.Log("Score: " + score);
-        scoreText.text = "Score: " + score;
-		Debug.Log ("Score: " + score);
+        
+		scoreText.text = "Files Infected: " + score;
+		Debug.Log("Files Infected: " + score);
 	}
 	/*
 	public void GameOver()
